@@ -41,3 +41,13 @@ divs[0].innerHTML += '<button>Dodany Przycisk</button>';
 let buttons = document.getElementsByTagName('button');
 for (const button of buttons)
     button.style.color = '#ff0000';
+
+
+
+let container123 = document.querySelector('#container123');
+console.log(container123);
+if (container123) {
+    container123.innerHTML += '<button>Dodany przycisk</button>'
+} else {
+    //null
+}
