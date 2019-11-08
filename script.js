@@ -9,10 +9,11 @@
 
 // let buttons = document.querySelectorAll('button');
 // console.log(buttons);
-// // for (let button of buttons) {
-// //     buttons.innerText = ["OK", "exit"];
-// //     console.log(buttons);
-// // }
+// Do zmiennej jest przypisana kolekvja elemenentów(NOdeList)
+// for (let button of buttons) {
+//     buttons.innerText = ["OK", "exit"];
+//     console.log(buttons);
+// }
 
 
 // buttons[0].innerText = 'OK';
@@ -31,6 +32,12 @@
 
 
 
-let divs=document.getElementsByClassName('simpleClass');
+let divs = document.getElementsByClassName('simpleClass');
 console.log(divs);
-divs[0].innerHTML+='<button>Dodany Przycisk</button>'
+divs[0].innerHTML += '<button>Dodany Przycisk</button>';
+// Zwrócona zostaje kolekcja elementów (HTMLCollection)
+
+
+let buttons = document.getElementsByTagName('button');
+for (const button of buttons)
+    button.style.color = '#ff0000';
