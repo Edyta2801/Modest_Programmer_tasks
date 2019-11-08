@@ -19,12 +19,18 @@
 // buttons[1].innerText = 'Exit';
 
 
-let buttonSave = document.getElementById('zapisz');
-console.log(buttonSave);
-buttonSave.innerText = 'Left';
-buttonSave.style.backgroundColor='#fff';
+// let buttonSave = document.getElementById('zapisz');
+// console.log(buttonSave);
+// buttonSave.innerText = 'Left';
+// buttonSave.style.backgroundColor='#fff';
 
-let buttonSave1 = document.getElementById('anuluj');
-console.log(buttonSave1);
-buttonSave1.innerText = 'Right';
-buttonSave1.style.color='green';
+// let buttonSave1 = document.getElementById('anuluj');
+// console.log(buttonSave1);
+// buttonSave1.innerText = 'Right';
+// buttonSave1.style.color='green';
+
+
+
+let divs=document.getElementsByClassName('simpleClass');
+console.log(divs);
+divs[0].innerHTML+='<button>Dodany Przycisk</button>'
